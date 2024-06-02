@@ -1,8 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    experimental: {
-        output: 'export',
-    },
-};
+// next.config.mjs
 
-export default nextConfig;
+export default {
+    // Other configuration options...
+    
+};
+  
