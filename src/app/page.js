@@ -18,7 +18,7 @@ export default function Home() {
         <h1>Hello World!</h1>
         <p>My name is Sergey Barzul</p>
         <p>I am A computer Science studnet at UW Bothell.</p>
-        <image src="/selfie.JPG" alt="Profile" style={{ width: '150px', borderRadius: '10%' }} />
+        <image src="../public/selfie.JPG" alt="Profile" style={{ width: '150px', borderRadius: '10%' }} />
         <h2>Things That Interest Me:</h2>
         <ul>
           {interests.map((interest, index) => (
