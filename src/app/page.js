@@ -20,7 +20,7 @@ export default function Home() {
         <p>My name is Sergey Barzul</p>
         <p>I am A computer Science studnet at UW Bothell.</p>
         <Image
-          src="/selfie.JPG"
+          src="/selfie.jpg"
           alt="Sergey Barzul"
           width={150}
           height={250}
