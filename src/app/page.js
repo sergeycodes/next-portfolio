@@ -1,6 +1,7 @@
 "use client";
 
 import styles from '/styles/Home.module.css';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Home() {
@@ -18,7 +19,14 @@ export default function Home() {
         <h1>Hello World!</h1>
         <p>My name is Sergey Barzul</p>
         <p>I am A computer Science studnet at UW Bothell.</p>
-        <image src="../public/selfie.JPG" alt="Profile" style={{ width: '150px', borderRadius: '10%' }} />
+        <Image
+          src="/selfie.JPG"
+          alt="Sergey Barzul"
+          width={150}
+          height={250}
+          style={{ borderRadius: '10%' }}
+        />
+
         <h2>Things That Interest Me:</h2>
         <ul>
           {interests.map((interest, index) => (
