@@ -18,7 +18,7 @@ export default function Home() {
       <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
         <h1>Hello World!</h1>
         <p>My name is Sergey Barzul</p>
-        <p>I am A computer Science studnet at UW Bothell.</p>
+        <p>I am A computer Science student at UW Bothell.</p>
         <Image
           src="/selfie.jpg"
           alt="Sergey Barzul"
