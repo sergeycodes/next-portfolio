@@ -1,36 +1,90 @@
-// pages/things_to_read.js
+// pages/things-to-read.js
 "use client";
 
 import NavBar from '../components/Navbar';
-import styles from '../styles/Home.module.css'
+import Card from '../components/Card';
+import styles from '../styles/ThingsToRead.module.css';
+
+const thingsToRead = [
+    {
+        title: "Skiing",
+        description: "A hobby that I enjoy during the winter months. I like to ski at Stevens Pass Resort.",
+        image: "/stevens.jpg",
+        link: "https://www.stevenspass.com/"
+    },
+    {
+        title: "Basketball",
+        description: "I enjoy watching and playing basketball. The NBA Finals are always exciting to watch",
+        image: "/nba-finals.jpg",
+        link: "https://www.nba.com/playoffs/2024/nba-finals"
+    },
+    {
+        title: "Hiking",
+        description: "I like to go on hikes. The last hike I went on was Mount Si in North Bend, WA.",
+        image: "/mount-si.jpg",
+        link: "https://www.alltrails.com/trail/us/washington/mount-si-trail"
+    },
+    {
+        title: "Piano",
+        description: "I recently started playing the piano again. The last song I learned was 'Tourniquet' by Zach Bryan.",
+        image: "/piano.jpg",
+        link: "https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0281584"
+    },
+    {
+        title: "Computers",
+        description: "I like to build computers and learn about new technologies. I recently built a new gaming PC for my brother.",
+        image: "/computer.jpg",
+        link: "https://www.pcmag.com/how-to/how-to-build-a-pc-the-ultimate-beginners-guide"
+    },
+    {
+        title: "Gaming",
+        description: "I enjoy playing video games in my free time. The last game I played was 'Baulder's Gate 3'.",
+        image: "/baulders-gate.jpg",
+        link: "https://bg3.wiki/"
+    },
+    {
+        title: "Example 7",
+        description: "This is an example description for link 7.",
+        image: "/example7.jpg",
+        link: "https://example.com/7"
+    },
+    {
+        title: "Example 8",
+        description: "This is an example description for link 8.",
+        image: "/example8.jpg",
+        link: "https://example.com/8"
+    },
+    {
+        title: "Example 9",
+        description: "This is an example description for link 9.",
+        image: "/example9.jpg",
+        link: "https://example.com/9"
+    },
+    {
+        title: "Example 10",
+        description: "This is an example description for link 10.",
+        image: "/example10.jpg",
+        link: "https://example.com/10"
+    }
+    // Add more objects for other links
+];
 
 export default function ThingsToRead() {
-    const links = [
-        { href: 'https://example.com/1', text: 'Link 1' },
-        { href: 'https://example.com/2', text: 'Link 2' },
-        { href: 'https://example.com/3', text: 'Link 3' },
-        { href: 'https://example.com/4', text: 'Link 4' },
-        { href: 'https://example.com/5', text: 'Link 5' },
-        { href: 'https://example.com/6', text: 'Link 6' },
-        { href: 'https://example.com/7', text: 'Link 7' },
-        { href: 'https://example.com/8', text: 'Link 8' },
-        { href: 'https://example.com/9', text: 'Link 9' },
-        { href: 'https://example.com/10', text: 'Link 10' }
-    ];
-
     return (
-        <div style={{ paddingTop: '80px', padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+        <div className={styles.container}>
             <NavBar />
             <h1>Things to Read</h1>
-            <ul>
-                {links.map((link, index) => (
-                    <li key={index}>
-                        <a href={link.href} target="_blank" rel="noopener noreferrer">
-                            {link.text}
-                        </a>
-                    </li>
+            <div className={styles.cardContainer}>
+                {thingsToRead.map((item, index) => (
+                    <Card
+                        key={index}
+                        title={item.title}
+                        description={item.description}
+                        image={item.image}
+                        link={item.link}
+                    />
                 ))}
-            </ul>
+            </div>
         </div>
     );
 }

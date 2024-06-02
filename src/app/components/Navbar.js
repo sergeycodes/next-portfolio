@@ -7,6 +7,7 @@ import Link from 'next/link';
 export default function NavBar() {
     return (
         <nav className={styles.navbar}>
+        <a href="#mainContent" className={styles.skipNavLink}>Skip Navigation</a>
             <ul className={styles.navList}>
                 <li className={styles.navItem}>
                     <Link legacyBehavior href="/">

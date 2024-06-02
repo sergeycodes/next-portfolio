@@ -31,3 +31,27 @@
 .navLink:hover {
     background-color: #555;
 }
+
+.skipNavLink {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.skipNavLink:focus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    padding: 8px 16px;
+    background-color: #0070f3;
+    color: white;
+    z-index: 1001;
+    text-decoration: none;
+    border-radius: 4px;
+}

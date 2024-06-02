@@ -1,0 +1,13 @@
+/* styles/ThingsToRead.module.css */
+.container {
+    padding-top: 80px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
