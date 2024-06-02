@@ -18,7 +18,7 @@ export default function Home() {
         <h1>Hello World!</h1>
         <p>My name is Sergey Barzul</p>
         <p>I am A computer Science studnet at UW Bothell.</p>
-        <img src="./selfie.jpg" alt="Profile" style={{ width: '150px', borderRadius: '10%' }} />
+        <image src="/selfie.jpg" alt="Profile" style={{ width: '150px', borderRadius: '10%' }} />
         
         <h2>Things That Interest Me:</h2>
         <ul>
