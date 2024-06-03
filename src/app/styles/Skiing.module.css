@@ -1,0 +1,153 @@
+/* styles/Skiing.module.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  .main {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    color: #666;
+  }
+
+  .primary {
+    color: #0096FF;
+  }
+
+  .primary_underline {
+    text-decoration: underline #0096FF;
+    text-decoration-thickness: 2px;
+  }
+
+  .secondary {
+    color: var(--secondary-color);
+  }
+
+    .secondary_underline {
+        text-decoration: underline var(--secondary-color);
+        text-decoration-thickness: 2px;
+    }
+
+  .third {
+    color: var(--third-color);
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .feature {
+    flex-basis: 30%;
+    text-align: center;
+  }
+  
+  .feature h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1em;
+    color: #666;
+    height: 80px;
+  }
+
+  .feature img {
+    object-fit: cover;
+    margin-bottom: 20px;
+    width: 280px;
+    height: 200px;
+  }
+
+  .how-to {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .how-toGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .how-toItem {
+    text-align: center;
+  }
+  
+  .how-toItem h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .how-toItem p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .testimonials {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    color: #333;
+  }
+  
+  .gallery {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .imageGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .cta {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .ctaButton {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ctaButton:hover {
+    background-color: #005bb5;
+  }
+  
+  .footer {
+    text-align: center;
+    color: #666;
+  }
+  

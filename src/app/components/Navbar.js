@@ -45,6 +45,11 @@ export default function NavBar() {
                         <a className={styles.navLink}>Things to Read</a>
                     </Link>
                 </li>
+                <li className={styles.navItem}>
+                    <Link legacyBehavior href="/skiing">
+                        <a className={styles.navLink}>Skiing</a>
+                    </Link>
+                </li>
             </ul>
             <div className={styles.settingsIconContainer}>
                 <div
