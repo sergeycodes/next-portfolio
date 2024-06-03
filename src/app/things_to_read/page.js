@@ -55,16 +55,16 @@ const thingsToRead = [
         link: "https://www.purina.co.uk/find-a-pet/cat-breeds/british-shorthair#:~:text=The%20British%20Shorthair%20is%20a,expression%20and%20bags%20of%20character."
     },
     {
-        title: "Example 9",
-        description: "This is an example description for link 9.",
-        image: "/example9.jpg",
-        link: "https://example.com/9"
+        title: "Algorithms",
+        description: "This quarter I spent a lot of time studying algorithms. A recent algorithm I learned was a 'Greedy Algorithm' used to solve a 'Maximum Disjoint Paths' problem in networks.",
+        image: "/algorithm.jpg",
+        link: "https://docs.google.com/presentation/d/1yRuD0bCD1sZhHOxcnEyxBWypycNWO_bvZ6TgXMwG78M/edit#slide=id.p"
     },
     {
-        title: "Example 10",
-        description: "This is an example description for link 10.",
-        image: "/example10.jpg",
-        link: "https://example.com/10"
+        title: "Work",
+        description: "I worked Fabricating and Installing Granite and Quartz countertops. I learned how to use a CNC machine to cut and polish stone.",
+        image: "/countertops.jpg",
+        link: "https://www.archcitygranite.com/the-surefire-way-to-modify-granite-countertops-by-cutting/#:~:text=Granite%20can%20be%20cut%20wet,of%20dust%20for%20dry%20cutting."
     }
     // Add more objects for other links
 ];
@@ -73,7 +73,7 @@ export default function ThingsToRead() {
     return (
         <div className={styles.container}>
             <NavBar />
-            <h1>Things to Read</h1>
+            <h1 className={styles.title}>Things to Read</h1>
             <div className={styles.cardContainer}>
                 {thingsToRead.map((item, index) => (
                     <Card

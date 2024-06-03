@@ -1,13 +1,16 @@
-body {
-  --primary-color: #007bff; 
-  --secondary-color: #6c757d; 
+
+:root {
+  --primary-color: #77BBDE; 
+  --secondary-color: #DE77BB; 
+  --third-color: #BBDE77;
   --background-color: #f8f9fa; 
   --text-color: #212529; 
 }
 
-root[data-colorblind="true"] {
-  --primary-color: #4caf50; 
-  --secondary-color: #ff5722; 
+:root[data-colorblind="true"] {
+  --primary-color: #375E97; 
+  --secondary-color: #FB6542; 
+  --third-color: #FFBB00;
 }
 
 body {

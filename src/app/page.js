@@ -13,7 +13,7 @@ export default function Home() {
       </div>
       <main id="mainContent">
         <div className={styles.hero}>
-          <h1>Welcome to My Website!</h1>
+          <h1>Welcome to <span className={styles.third} >My Website</span></h1>
           <p>This is a proof of concept website demonstrating accessibility features.</p>
         </div>
         <div className={styles.content}>

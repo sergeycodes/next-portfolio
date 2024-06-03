@@ -1,14 +1,9 @@
-@value --primary-color: #0070f3;
-@value --secondary-color: #6c757d;
-@value --background-color: #f8f9fa;
-@value --text-color: #212529;
-
 
 .container {
   padding: 20px;
   font-family: Arial, sans-serif;
-  background-color: --background-color;
-  color: --text-color;
+  background-color: var(--background-color);
+  color: var(--text-color);
   text-align: center;
   margin-top: 40px;
 }
@@ -18,13 +13,13 @@
   top: 0;
   width: 100%;
   z-index: 1000;
-  background-color: --primary-color; 
+  background-color: var(--background-color); 
 }
 
 .hero {
   background-size: cover;
   background-position: center;
-  background-color: lightblue;
+  background-color: var(--primary-color);
   color: white;
   padding: 100px 20px;
   border-radius: 10px;
@@ -99,7 +94,7 @@
 }
 
 .card {
-  background-color: white;
+  background-color: var(--secondary-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin: 20px;
@@ -121,35 +116,13 @@
 .card h3 {
   font-size: 1.5em;
   margin: 10px 0;
+  color: white;
+  text-decoration: underline var(--third-color);
 }
 
 .card p {
   font-size: 1em;
-  color: #666;
-}
-
-/* Testimonials section */
-.testimonials {
-  background-color: #f9f9f9;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.testimonial {
-  margin: 20px 0;
-}
-
-.testimonial p {
-  font-size: 1.2em;
-  font-style: italic;
-  color: #333;
-}
-
-.testimonial span {
-  display: block;
-  margin-top: 10px;
-  font-size: 1em;
-  color: #555;
+  color: white;
 }
 
 .skipNav {
@@ -161,6 +134,10 @@
   padding: 10px;
   z-index: 100;
   transition: top 0.3s;
+}
+
+.third {
+  color: var(--third-color);
 }
 
 .skipNav:focus {

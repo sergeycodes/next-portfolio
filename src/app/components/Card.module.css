@@ -6,7 +6,7 @@
     border-radius: 8px;
     overflow: hidden;
     width: calc(50% - 20px); /* Ensure two cards per row with gap */
-    background-color: #fff;
+    background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px; /* Ensure proper spacing between rows */
 }
@@ -27,7 +27,6 @@
 .title {
     margin: 0 0 8px;
     font-size: 1.5em;
-    color: #333;
 }
 
 .description {
@@ -38,7 +37,7 @@
 }
 
 .button {
-    background-color: #0070f3;
+    background-color: var(--primary-color);
     color: white;
     text-decoration: none;
     padding: 10px 20px;
