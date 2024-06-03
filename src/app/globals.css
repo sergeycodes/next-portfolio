@@ -1,6 +1,19 @@
 body {
+  --primary-color: #007bff; 
+  --secondary-color: #6c757d; 
+  --background-color: #f8f9fa; 
+  --text-color: #212529; 
+}
+
+root[data-colorblind="true"] {
+  --primary-color: #4caf50; 
+  --secondary-color: #ff5722; 
+}
+
+body {
   font-family: Arial, sans-serif;
-  padding-top: 60px;
-  margin: 10px;
+  margin: 0;
+  left: 0;
+  top: 0;
   padding: 0;
 }
