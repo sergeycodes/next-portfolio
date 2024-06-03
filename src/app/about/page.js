@@ -34,7 +34,7 @@ export default function About() {
             <li key={index}>{interest}</li>
           ))}
         </ul>
-        <button className={styles.button} onClick={reorderList}>
+        <button className={styles.aboutButton} onClick={reorderList}>
           {isReordered ? 'Original Order' : 'Reverse Order'}
         </button>
       </div>

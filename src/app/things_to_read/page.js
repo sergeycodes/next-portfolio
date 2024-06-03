@@ -43,16 +43,16 @@ const thingsToRead = [
         link: "https://bg3.wiki/"
     },
     {
-        title: "Example 7",
-        description: "This is an example description for link 7.",
-        image: "/example7.jpg",
-        link: "https://example.com/7"
+        title: "Food",
+        description: "I like to eat food. One of my favorite pizza places is 'Sparta's Pizza' in Bothell, WA.",
+        image: "/spartas-pizza.png",
+        link: "https://spartaspizza.com/"
     },
     {
         title: "Example 8",
-        description: "This is an example description for link 8.",
-        image: "/example8.jpg",
-        link: "https://example.com/8"
+        description: "I take care of my pet cat named 'Ovie'. She is a British Shorthair and is very playful.",
+        image: "/ovie.jpeg",
+        link: "https://www.purina.co.uk/find-a-pet/cat-breeds/british-shorthair#:~:text=The%20British%20Shorthair%20is%20a,expression%20and%20bags%20of%20character."
     },
     {
         title: "Example 9",
